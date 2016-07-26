@@ -1,0 +1,95 @@
+﻿*
+{
+    font-family:"microsoft yahei";    
+}
+body
+{
+    text-align:center;
+}
+a
+{
+    color:#0000C4;
+    text-decoration:none;
+}
+.container
+{
+    border:1px solid #D9D9D9;
+    width:900px;
+    margin:10px auto;
+}
+ul li
+{
+    text-align:left;
+    font-size:14px;
+}
+#header
+{
+    height:30px;
+    color:#E78D12;
+}
+/*要注意中英文的逗号，如果写成中文的逗号，则不起作用*/
+#header_login_container,#header_register_container,#logined_user,#log_out
+{
+    float:right;
+    margin-right:15px;
+    margin-top:3px;
+}
+.userName_span
+{
+    color:#FF0000;
+}
+#mainContent
+{
+    margin:10px auto;
+    height:1260px;
+}
+#mainContent_right,#mainContent_left
+{
+    float:left;    
+    margin-left:10px;
+    border:1px solid #D9D9D9;
+}
+#mainContent_left
+{
+     width:300px;
+}
+#mainContent_left_top,#mainContent_left_bottom,#mainContent_left_leaveMessage
+{
+    height:300px;
+    border:1px solid #D9D9D9;
+    margin-top:10px;
+    color:#2D64B3;
+    overflow:hidden;
+}
+#mainContent_left_top li:hover
+{
+    color:Red;
+    cursor:pointer;
+}
+.matterList
+{
+    font-weight:bold;
+    color:#000000;
+}
+.look_reply
+{
+    margin-left:10px;
+}
+.look_reply:hover
+{
+    color:Red;
+    cursor:pointer;
+}
+#mainContent_right
+{
+    width:570px;
+    /*height:490px;*/
+    border:1px solid #D9D9D9;
+    overflow:visible;
+}
+#mainContent_right_title
+{
+    font-size:20px;
+    color:#2399DB;
+    padding:10px;
+}

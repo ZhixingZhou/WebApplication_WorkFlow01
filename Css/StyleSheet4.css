@@ -1,0 +1,43 @@
+﻿.container
+{
+    margin:50px auto 5px;
+}
+#user_register
+{
+    margin:0 auto;
+    width:450px;
+    height:300px;
+    background-color:#F4E6DC;
+    padding:10px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:3px 3px 8px rgba(0,0,0,0.6);
+}
+#header_container
+{
+    height:30px;
+}
+#header
+{
+    float:right;
+    font-size:20px;
+    margin-right:10px;
+}
+#register_info
+{
+    text-align:left;
+}
+.tip
+{
+    margin-left:40px;
+    width:100px;
+    text-align:right;
+    display:inline-block;
+    margin-right:1px;
+}
+/*注意拼写问题，如果拼写错误，会导致样式无法应用*/
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }
+.btn
+{
+    margin-left:150px;
+}

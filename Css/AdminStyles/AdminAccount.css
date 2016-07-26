@@ -1,0 +1,31 @@
+﻿.div_container
+{
+    width:900px;
+    height:600px;    
+}
+.account_item
+{
+    margin-top:10px;
+    height:590px;
+    width:150px;
+    float:left;
+}
+.editorial_content
+{
+    margin-top:10px;
+    height:590px;
+    width:740px;   
+    float:right;
+    text-align:center;
+    
+}
+li
+{
+    cursor:pointer;
+    color:#0000FF;    
+}
+.modify_div
+{
+    margin-top:100px; 
+    border:none;      
+}

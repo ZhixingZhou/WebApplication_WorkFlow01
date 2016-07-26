@@ -1,0 +1,87 @@
+﻿*
+{
+    text-align:left;    
+}
+a
+{
+    color:#0000C4;
+    text-decoration:none;
+}
+.content_container
+{
+    border:1px solid #D9D9D9;
+    width:900px;
+    margin:10px auto;
+    height:610px;
+}
+#content_left
+{
+    float:left;
+    border:1px solid #D9D9D9;
+    width:245px;
+    height:595px;
+    margin:5px;
+}
+ul li
+{
+    text-align:left;
+}
+.current_page
+{
+    background-color:#A1BFF8;
+}
+#content_right
+{
+    float:left;
+    width:628px;
+    height:595px;
+    margin:5px;
+    border:1px solid #D9D9D9;
+    text-align:left;
+}
+.message_content    /*LeaveMessagesWebForm中的*/
+{
+    margin:4px;
+    padding:5px;
+    border:1px solid #4C8C8D;
+    border-radius:5px;  
+    text-align:left;
+}
+.info_item   /*MyUpdatedInfo.aspx中的*/
+{
+    margin:6px;
+    padding:5px;
+    border:1px solid #4C8C8D;
+    border-radius:5px;
+}
+.message_content
+{
+    background-color:#EDFBFE;
+}
+.reply_content
+{
+    padding-left:30px;
+}
+span.reply_span
+{
+    color:#0000FF;
+    padding-left:10px;
+}
+span.reply_span:hover
+{
+    color:Red;
+    cursor:pointer;
+}
+.reply_div
+{
+    display:none;
+}
+.show_div
+{
+    display:block;
+}
+textarea
+{
+    margin:15px 8px 6px 10px;
+    color:#BDC7D7
+}

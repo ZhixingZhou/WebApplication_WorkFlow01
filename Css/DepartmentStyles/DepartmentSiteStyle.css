@@ -1,0 +1,50 @@
+﻿*
+{
+    font-family:"microsoft yahei";    
+}
+body
+{
+    width:900px;  
+    margin:0 auto;
+}
+div
+{
+    border:1px solid #D9D9D9;
+}
+.selection_container
+{
+    width:900px;
+    margin:10px auto;
+    height:60px;
+}
+.function_selection
+{
+    float:left;
+    margin:5px;
+    padding:3px 5px;
+}
+a
+{
+    color:#0000C4;
+    text-decoration:none;
+}
+.container
+{
+    width:900px;
+    margin:10px auto;
+}
+#header
+{
+    height:30px;
+}
+#logined_user,#log_out
+{
+    float:right;
+    margin-right:15px;
+    margin-top:3px;
+}
+.userName_span
+{
+    color:#FF0000;
+}
+/**************************************************/

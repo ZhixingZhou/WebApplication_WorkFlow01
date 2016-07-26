@@ -1,0 +1,23 @@
+﻿*
+{
+    font-family:"microsoft yahei";
+    text-align:center; 
+}
+a
+{
+    text-decoration:none;
+}
+.selection_container
+{
+    border:1px solid #D9D9D9;
+    width:900px;
+    margin:10px auto;
+    height:60px;
+}
+.function_selection
+{
+    float:left;
+    border:1px solid #D9D9D9;
+    margin:5px;
+    padding:3px 5px;
+}

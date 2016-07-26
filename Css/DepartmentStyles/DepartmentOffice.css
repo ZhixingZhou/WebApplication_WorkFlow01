@@ -1,0 +1,50 @@
+﻿.div_container
+{
+    width:900px;
+    height:600px;    
+}
+.office_item
+{
+    margin-top:10px;
+    height:590px;
+    width:150px;
+    float:left;
+}
+.editorial_content
+{
+    margin-top:10px;
+    height:590px;
+    float:right; 
+    width:740px;   
+    text-align:center;
+}
+table
+{
+    margin:0 auto;    
+}
+
+.add_search_div div
+{
+    margin-top:10px;
+    margin-right:55px;
+    margin-bottom:10px;
+    float:right;
+}
+.see_office_div
+{
+    margin-top:10px; 
+}
+li
+{
+    cursor:pointer;
+    line-height:30px; 
+    color:#0000FF;
+}
+.hide
+{
+    Display:none;    
+}
+.current
+{
+    color:#36352c;    
+}

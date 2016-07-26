@@ -1,0 +1,19 @@
+﻿jQuery.extend(jQuery.validator.messages, {
+    required: "必须输入信息",
+    remote: "服务器验证失败。",
+    email: "请输入一个有效的电子邮件地址。",
+    url: "请输入一个有效的URL。",
+    date: "请输入一个有效的日期。",
+    dateISO: "请输入一个有效的（ISO）日期。",
+    number: "请输入一个有效的数。",
+    digits: "请输入整数。",
+    creditcard: "请输入有效的信用卡。",
+    equalTo: "请重新输入相等的值或字符串。",
+    accept: "请输入可接受的字符。",
+    maxlength: jQuery.validator.format("请输入不超过{0}个字符的字符串。"),
+    minlength: jQuery.validator.format("请至少输入{0}个字符。"),
+    rangelength: jQuery.validator.format("输入的字符个数必须在{0}到{1}之间"),
+    range: jQuery.validator.format("请输入{0}到{1}之间的数。"),
+    max: jQuery.validator.format("请输入小于等于{0}的数。"),
+    min: jQuery.validator.format("请输入大于等于{0}的数。")
+});
